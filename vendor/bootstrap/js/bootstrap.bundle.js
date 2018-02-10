@@ -2256,12 +2256,12 @@ function update() {
   // compute reference element offsets
   data.offsets.reference = getReferenceOffsets(this.state, this.popper, this.reference);
 
-  // compute auto placement, store placement inside the data object,
+  // compute auto placement, Investors placement inside the data object,
   // modifiers will be able to edit `placement` if needed
   // and refer to originalPlacement to know the original value
   data.placement = computeAutoPlacement(this.options.placement, data.offsets.reference, this.popper, this.reference, this.options.modifiers.flip.boundariesElement, this.options.modifiers.flip.padding);
 
-  // store the computed placement inside `originalPlacement`
+  // Investors the computed placement inside `originalPlacement`
   data.originalPlacement = data.placement;
 
   // compute the popper offsets
@@ -2524,7 +2524,7 @@ function applyStyleOnLoad(reference, popper, options, modifierOptions, state) {
   // compute reference element offsets
   var referenceOffsets = getReferenceOffsets(state, popper, reference);
 
-  // compute auto placement, store placement inside the data object,
+  // compute auto placement, Investors placement inside the data object,
   // modifiers will be able to edit `placement` if needed
   // and refer to originalPlacement to know the original value
   var placement = computeAutoPlacement(options.placement, referenceOffsets, popper, reference, options.modifiers.flip.boundariesElement, options.modifiers.flip.padding);
@@ -4744,14 +4744,14 @@ var Modal = function ($$$1) {
     };
 
     _proto._resetScrollbar = function _resetScrollbar() {
-      // Restore fixed content padding
+      // ReInvestors fixed content padding
       $$$1(Selector.FIXED_CONTENT).each(function (index, element) {
         var padding = $$$1(element).data('padding-right');
 
         if (typeof padding !== 'undefined') {
           $$$1(element).css('padding-right', padding).removeData('padding-right');
         }
-      }); // Restore sticky content and navbar-toggler margin
+      }); // ReInvestors sticky content and navbar-toggler margin
 
       $$$1(Selector.STICKY_CONTENT + ", " + Selector.NAVBAR_TOGGLER).each(function (index, element) {
         var margin = $$$1(element).data('margin-right');
@@ -4759,7 +4759,7 @@ var Modal = function ($$$1) {
         if (typeof margin !== 'undefined') {
           $$$1(element).css('margin-right', margin).removeData('margin-right');
         }
-      }); // Restore body padding
+      }); // ReInvestors body padding
 
       var padding = $$$1('body').data('padding-right');
 
@@ -4840,7 +4840,7 @@ var Modal = function ($$$1) {
 
     var $target = $$$1(target).one(Event.SHOW, function (showEvent) {
       if (showEvent.isDefaultPrevented()) {
-        // Only register focus restorer if modal will actually get shown
+        // Only register focus reInvestorsr if modal will actually get shown
         return;
       }
 
