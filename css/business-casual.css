@@ -1,7 +1,7 @@
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(89, 88, 35, 1),rgba(47, 23, 15, 0.15)),url(../img/vertical_farm_towers.jpg);
-  /*linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/vertical_farm_towers.jpg");*/
+  background: linear-gradient(rgba(89, 88, 35, 1),rgba(47, 23, 15, 0.15)),url(../img/spinach.jpg);
+  /*linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/spinach.jpg");*/
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
